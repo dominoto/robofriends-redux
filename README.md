@@ -1,5 +1,8 @@
 Doing a React exercise from "The Complete Web Developer in 2022: Zero to Mastery" course.
 
+Robofriends Class components based website: https://dominoto.github.io/robofriends/
+Robofriends Functional components based (hooks) website: https://dominoto.github.io/robofriends-hooks/
+
 
 # Getting Started with Create React App
 
