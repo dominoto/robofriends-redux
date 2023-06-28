@@ -1,4 +1,4 @@
-Doing a React exercise from "The Complete Web Developer in 2022: Zero to Mastery" course.
+Doing a React exercise from "The Complete Web Developer in 2022: Zero to Mastery" course. The point of the exercise is to modify class-based Robofriends app to use Redux for state management.
 
 Robofriends Class components based website: https://dominoto.github.io/robofriends/
 
