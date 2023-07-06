@@ -1,14 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux"; // Provide the state store to components
-import { legacy_createStore as createStore} from 'redux'; // For creating state store
+import { applyMiddleware, legacy_createStore as createStore} from 'redux'; // For creating state store
+import { createLogger } from 'redux-logger';
 import "./index.css";
 import App from "./containers/App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import { searchRobots } from "./reducers"; // Import reducer function
 
-const store = createStore(searchRobots); // Create state store that uses reducer searchRobots
+const logger = createLogger();
+const store = createStore(searchRobots, applyMiddleware(logger)); // Create state store that uses reducer searchRobots
 
 ReactDOM.render(
   // <React.StrictMode>
